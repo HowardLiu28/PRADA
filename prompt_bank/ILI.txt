@@ -1,0 +1,1 @@
+The ILI dataset describes the ratio of patients with influenza illness to the number of patients. It includes weekly data from the U.S. Centers for Disease Control and Prevention from 2002 to 2021.The percentage of patient visits to healthcare providers for ILI reported each week is weighted on the basis of state population.
