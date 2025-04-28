@@ -92,12 +92,47 @@ bash ./scripts/short_term_forecast/PRADA_M4.sh
 ```
 **Few-shot forecasting:** You can set the parameter `--percent` to evaluate the model's few-shot forecasting performance. For example, for the few-shot task on 10% training data setting, you can set `--percent 5 \` in your experimental script (only for long-term forecasting task).
 
-**Zero-shot forecasting:** You can use the `run_zsl.py` file to evaluate the zero-shot performance of the model on ETT benchmark. For example, you can run the following code to evaluate the generalization of PRADA in the ETTh1-ETTh2 setting:
+**Zero-shot forecasting:** You can use the `run_zsl.py` file to evaluate the zero-shot performance of the model on ETT benchmark. For example, you can run the following code to evaluate the generalization in the ETTh1-ETTh2 setting:
 ```bash
 python run_zsl.py --model_id ETTh1-ETTh2_512_96 --src_data ETTh1 --src_data_path ETTh1.csv --tgt_data ETTh2 --tgt_data_path ETTh2.csv --number_variable 7
 ```
 
 ## 📈 Train and forecast:
-
+- The model file is stored in `./models/PRADA.py`, and the text prompt template is stored in `./models/prompt.py`. You can imitate the content and modify it and register the model in `./exp/exp_basic.py`.
+- The domain description prompts for different benchmarks are stored in folder `./prompt_bank` and support custom modification.
 
 ## 🌟 Acknowledgement:
+Our implementation adapts [Time-Series-Library](https://github.com/thuml/Time-Series-Library), [OFA (GPT4TS)](https://github.com/DAMO-DI-ML/NeurIPS2023-One-Fits-All), and [Time-LLM](https://github.com/KimMeen/Time-LLM) as the code base and have extensively modified it to our purposes. We thank the authors for sharing their implementations and related resources.
+
+```
+@inproceedings{wu2023timesnet,
+  title={TimesNet: Temporal 2D-Variation Modeling for General Time Series Analysis},
+  author={Haixu Wu and Tengge Hu and Yong Liu and Hang Zhou and Jianmin Wang and Mingsheng Long},
+  booktitle={International Conference on Learning Representations},
+  year={2023},
+}
+```
+```
+@article{wang2024tssurvey,
+  title={Deep Time Series Models: A Comprehensive Survey and Benchmark},
+  author={Yuxuan Wang and Haixu Wu and Jiaxiang Dong and Yong Liu and Mingsheng Long and Jianmin Wang},
+  booktitle={arXiv preprint arXiv:2407.13278},
+  year={2024},
+}
+```
+```
+@inproceedings{zhou2023onefitsall,
+  title={{One Fits All}: Power General Time Series Analysis by Pretrained LM},
+  author={Tian Zhou, Peisong Niu, Xue Wang, Liang Sun, Rong Jin},
+  booktitle={NeurIPS},
+  year={2023}
+}
+```
+```
+@inproceedings{jin2023time,
+  title={{Time-LLM}: Time series forecasting by reprogramming large language models},
+  author={Jin, Ming and Wang, Shiyu and Ma, Lintao and Chu, Zhixuan and Zhang, James Y and Shi, Xiaoming and Chen, Pin-Yu and Liang, Yuxuan and Li, Yuan-Fang and Pan, Shirui and Wen, Qingsong},
+  booktitle={International Conference on Learning Representations (ICLR)},
+  year={2024}
+}
+```
