@@ -41,7 +41,7 @@
 
 PRADA is a novel framework for time series forecasting based on LLMs. It decomposes time series into trend, seasonal, and residual terms, designs learnable textual prompts aligned with each component by the multi-view TSAA, which further mitigates the gap between natural language and time series. Additionally, a Time-Frequency Dual Constraint is applied to capture overlooked label autocorrelations.
 <p align="center">
-<img src="pic/main_model.png" height = "360" alt="" align=center />
+<img src="pic/main_model.png" height = "400" alt="" align=center />
 </p>
 
 ## 🤗 Basic Preparation:
