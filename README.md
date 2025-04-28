@@ -3,7 +3,7 @@
 </div>
 
 <div align="center">
-  <a href="https://github.com/HowardLiu28">Yinhao Liu</a>, <a href="https://github.com/KZYYYY">Zhenyu Kuang</a>, Hongyang Zhang, <a href="https://github.com/lichen0620">Chen Li</a>, Feifei Li, Xinghao Ding
+  <a href="https://github.com/HowardLiu28">Yinhao Liu</a>, <a href="https://github.com/KZYYYY">Zhenyu Kuang</a>, <a href="https://github.com/HRT00">Hongyang Zhang</a>, <a href="https://github.com/lichen0620">Chen Li</a>, Feifei Li, Xinghao Ding
 </div>
 
 ---
