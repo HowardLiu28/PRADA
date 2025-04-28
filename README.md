@@ -3,7 +3,13 @@
 </div>
 
 <div align="center">
-  <a href="https://github.com/HowardLiu28">Yinhao Liu</a>, <a href="https://github.com/KZYYYY">Zhenyu Kuang</a>, <a href="https://github.com/HRT00">Hongyang Zhang</a>, <a href="https://github.com/lichen0620">Chen Li</a>, Feifei Li, Xinghao Ding
+  <a href="https://github.com/HowardLiu28">Yinhao Liu</a><sup>1</sup>, <a href="https://github.com/KZYYYY">Zhenyu Kuang</a><sup>2</sup>, <a href="https://github.com/HRT00">Hongyang Zhang</a><sup>3</sup>, <a href="https://github.com/lichen0620">Chen Li</a><sup>3</sup>, Feifei Li<sup>3</sup>, Xinghao Ding<sup>3</sup>
+</div>
+
+<div align="center">
+  <sup>1</sup> Institute of Artificial Intelligence, Xiamen University         <sup>2</sup> School of Electronic and Information Engineering, Foshan University 
+  
+  <sup>3</sup> School of Informatics, Xiamen University
 </div>
 
 ---
