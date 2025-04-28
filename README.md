@@ -38,7 +38,7 @@ PRADA is a novel framework for time series forecasting based on LLMs. It decompo
 <img src="pic/main_model.png" height = "360" alt="" align=center />
 </p>
 
-## 🤗 Basic preparation:
+## 🤗 Basic Preparation:
 
 **Datasets:** You can access the well pre-processed datasets from [[Google Drive]](https://drive.google.com/file/d/1NF7VEefXCmXuWNbnNe858WvQAkJ_7wuP/view?usp=sharing) or [[Baidu Drive]](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy), then place the downloaded contents under `./all_datasets`.
 
@@ -97,7 +97,7 @@ bash ./scripts/short_term_forecast/PRADA_M4.sh
 python run_zsl.py --model_id ETTh1-ETTh2_512_96 --src_data ETTh1 --src_data_path ETTh1.csv --tgt_data ETTh2 --tgt_data_path ETTh2.csv --number_variable 7
 ```
 
-## 📈 Train and forecast:
+## 📈 Train and Forecast:
 - The model file is stored in `./models/PRADA.py`, and the text prompt template is stored in `./models/prompt.py`. You can imitate the content and modify it and register the model in `./exp/exp_basic.py`.
 - The domain description prompts for different benchmarks are stored in folder `./prompt_bank` and support custom modification.
 
