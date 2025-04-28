@@ -42,7 +42,7 @@ PRADA is a novel framework for time series forecasting based on LLMs. It decompo
 
 **Datasets:** You can access the well pre-processed datasets from [[Google Drive]](https://drive.google.com/file/d/1NF7VEefXCmXuWNbnNe858WvQAkJ_7wuP/view?usp=sharing) or [[Baidu Drive]](https://pan.baidu.com/s/1r3KhGd0Q9PJIUZdfEYoymg?pwd=i9iy), then place the downloaded contents under `./all_datasets`.
 
-**Pretrained GTP-2:** We use the pre-trained GPT-2 as our backbone network. You can download its weight from [here](https://huggingface.co/openai-community/gpt2) and place it under `./gpt2`.
+**Pretrained GTP-2:** We use the pre-trained GPT-2 as our backbone network. You can download its weight from [here]([https://huggingface.co/openai-community/gpt2](https://huggingface.co/openai-community/gpt2/tree/main)) and place it under `./gpt2`.
 
 ## 🛠️ Requirements and Installation:
 
