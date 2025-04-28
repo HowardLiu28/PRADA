@@ -92,7 +92,10 @@ bash ./scripts/short_term_forecast/PRADA_M4.sh
 ```
 **Few-shot forecasting:** You can set the parameter `--percent` to evaluate the model's few-shot forecasting performance. For example, for the few-shot task on 10% training data setting, you can set `--percent 5 \` in your experimental script (only for long-term forecasting task).
 
-**Zero-shot forecasting:** ??
+**Zero-shot forecasting:** You can use the `run_zsl.py` file to evaluate the zero-shot performance of the model on ETT benchmark. For example, you can run the following code to evaluate the generalization of PRADA in the ETTh1-ETTh2 setting:
+```bash
+python run_zsl.py --model_id ETTh1-ETTh2_512_96 --src_data ETTh1 --src_data_path ETTh1.csv --tgt_data ETTh2 --tgt_data_path ETTh2.csv --number_variable 7
+```
 
 ## 📈 Train and forecast:
 
