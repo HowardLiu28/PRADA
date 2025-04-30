@@ -7,9 +7,7 @@
 </div>
 
 <div align="center">
-  <sup>1</sup> Institute of Artificial Intelligence, Xiamen University         <sup>2</sup> School of Electronic and Information Engineering, Foshan University 
-  
-  <sup>3</sup> School of Informatics, Xiamen University
+  <sup>1</sup> Institute of Artificial Intelligence, Xiamen University         <sup>2</sup> School of Electronic and Information Engineering, Foshan University     <sup>3</sup> School of Informatics, Xiamen University
 </div>
 
 ---
