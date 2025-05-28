@@ -94,7 +94,7 @@ bash ./scripts/long_term_forecast/ECL_script/ILI.sh
 # M4
 bash ./scripts/short_term_forecast/PRADA_M4.sh
 ```
-**Few-shot forecasting:** You can set the parameter `--percent` to evaluate the model's few-shot forecasting performance. For example, for the few-shot task on 10% training data setting, you can set `--percent 5 \` in your experimental script (only for long-term forecasting task).
+**Few-shot forecasting:** You can set the parameter `--percent` to evaluate the model's few-shot forecasting performance. For example, for the few-shot task on 10% training data setting, you can set `--percent 10 \` in your experimental script (only for long-term forecasting task).
 
 **Zero-shot forecasting:** You can use the `run_zsl.py` file to evaluate the zero-shot performance of the model on ETT benchmark. For example, you can run the following code to evaluate the generalization in the ETTh1-ETTh2 setting:
 ```bash
